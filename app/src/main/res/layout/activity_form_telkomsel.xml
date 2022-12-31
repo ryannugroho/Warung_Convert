@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FormTelkomselActivity"
+    android:background="@drawable/background"
+    android:paddingTop="50dp"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No. Pengirim"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingBottom="5dp"/>
+
+    <EditText
+        android:id="@+id/noPengirim"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Masukkan Nomor HP Pengirim"
+        android:background="#30ffffff"
+        android:textColorHint="@color/white"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jumlah"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingBottom="5dp"/>
+
+    <EditText
+        android:id="@+id/jumlah"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Masukkan Jumlah Pulsa"
+        android:background="#30ffffff"
+        android:textColorHint="@color/white"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nomor E-Wallet"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingBottom="5dp"/>
+
+    <EditText
+        android:id="@+id/noTujuan"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Masukkan Nomor E-Wallet"
+        android:background="#30ffffff"
+        android:textColorHint="@color/white"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jenis E-Wallet"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingBottom="5dp"/>
+
+    <EditText
+        android:id="@+id/eWallet"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Masukkan Jenis E-Wallet"
+        android:background="#30ffffff"
+        android:textColorHint="@color/white"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/post"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kirim"
+        android:textColor="@color/white"
+        android:layout_gravity="right">
+    </Button>
+
+    <TextView
+        android:id="@+id/rateTelkom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:text="Check Rate!!!"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/checkRateTelkomsel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        tools:text="0.81 x 20000 = 90000"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+</LinearLayout>
